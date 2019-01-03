@@ -1,0 +1,385 @@
+/* RESET */
+body,canvas,h1,h2,h3,h4,h5,h6,header,hgroup,i,video{margin:0;padding:0;border:0;font:inherit;vertical-align:top},section{display:block}body{line-height:1}
+
+/* GLOBAL */
+
+html {
+	background-color: #588CE0;
+	font-family: 'Verlag A', 'Verlag B', "Verlag";
+	font-weight: 300;
+	font-style: normal;
+	text-align: center;
+	font-size: 20px;
+}
+
+body {
+	position: relative;
+}
+
+h1, h2{
+	text-transform: uppercase;
+}
+h3{ 
+    display: block;
+	color:white;
+    font-size: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+	padding-top:20px;
+	
+}
+
+h4 { 
+
+   
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+
+/* Navigation Bar */
+
+ul.navbar-top {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	font-size: 0;
+	line-height: 0;
+	padding: 0;
+}
+
+
+ul.navbar-top li, ul.navbar-top a {
+	display: inline-table;
+}
+
+
+ul.navbar-top a {
+	color: White;
+	font-size: 14px;
+	line-height: 14px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+ul.navbar-top a:hover {
+	background-color: #FF0027;
+	text-decoration: none;
+	border: 0;
+	border-radius: 15px;
+}
+
+
+
+
+.error{
+  color:red;
+  font-weight: bold;
+  padding-right: 50px;
+}
+
+
+
+
+/* PARALLAX */
+
+.keyart, .keyart_layer {
+	height: 1000px;
+}
+
+#parallax {
+	display: none;
+}
+#nonparallax {
+	display: block;
+}
+
+
+.keyart {
+	position: relative;
+	z-index: 10;
+}
+
+.keyart_layer {
+	background-position:top center;
+	background-size: auto 805px;
+	background-repeat:no-repeat;
+	width: 100%;
+	position: absolute;
+	back
+
+}
+.keyart_layer.parallax {
+	position: fixed;
+}
+	#keyart-0 {
+		background-image: url('../images/parallax/parallax0.png');
+		background-color: none;
+
+	}
+	#keyart-1 {
+		background-image: url('../images/parallax/parallax1.png');
+
+	}
+	#keyart-2 {
+		background-image: url('../images/parallax/parallax2.png');
+	}
+	#keyart-3 {
+		background-image: url('../images/parallax/parallax3.png');
+	}
+	#keyart-4 {
+		background-image: url('../images/parallax/parallax4.png');
+	}
+	#keyart-5 {
+		background-image: url('../images/parallax/parallax5.png');
+	}
+	#keyart-6 {
+		background-image: url('../images/parallax/parallax6.png');
+	}
+	#keyart-7 {
+		background-image: url('../images/parallax/parallax7.png');
+	}
+	#keyart-8 {
+		background-image: url('../images/parallax/parallax8.png');
+	}
+	#keyart-scrim {
+		background-color: #0094ff;
+		opacity: 0;
+	}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi){
+   	#keyart-0 {
+		background-image: url('../images/parallax/parallax0.png');
+		background-color: #ffaf1b;
+	}
+	#keyart-1 {
+		background-image: url('../images/parallax/parallax1.png');
+	}
+	#keyart-2 {
+		background-image: url('../images/parallax/parallax2.png');
+	}
+	#keyart-3 {
+		background-image: url('../images/parallax/parallax3.png');
+	}
+	#keyart-4 {
+		background-image: url('../images/parallax/parallax4.png');
+	}
+	#keyart-5 {
+		background-image: url('../images/parallax/parallax5.png');
+	}
+	#keyart-6 {
+		background-image: url('../images/parallax/parallax6.png');
+	}
+	#keyart-7 {
+		background-image: url('../images/parallax/parallax7.png');
+	}
+	#keyart-8 {
+		background-image: url('../images/parallax/parallax8.png');
+	}
+}
+
+
+/* MAIN STRUCTURE */
+
+
+#maincontain {
+	padding:25px;
+	background-color: #588CE0;
+	color:black;
+	position: relative;
+	z-index: 98;
+}
+
+
+/********************/
+/* ENABLES PARALLAX */
+/********************/
+
+@media (min-width: 401px) {
+
+	#nonparallax {
+		display: none;
+	}
+	#parallax {
+		display: block;
+	}
+
+}
+
+
+@media (max-width: 401px) {
+
+	#nonparallax {
+		display: block;
+		background-image:url('../images/logo.png');
+	}
+	#parallax {
+		display: none;
+	}
+
+}
+
+
+@media only screen and (max-device-width: 450px) {
+
+/* PARALLAX */
+
+	.keyart, .keyart_layer {
+		height: 550px;
+	}
+
+	.keyart_layer {
+		position: absolute;
+		background-size: auto 600px;
+	}
+}
+
+
+/*Search Bar */
+
+
+/*Search Button */
+
+
+.city[type=text] {
+    width: 230px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+.input[type=text] {
+    width: 530px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.select{
+  width: 210px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.select1{
+    width: 280px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+.select2{
+    width: 230px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+
+.button {
+    background-color: #588CE0;
+    border: none;
+    padding: 0px 32px;
+	position: absolute;
+}
+button:focus {outline:0;}
+button:active{transform: translateY(4px);}
+
+/*images*/
+
+div.img {
+	
+    border: 1px solid black;
+	
+}
+
+div.img:hover {
+    border: 2px solid black;
+}
+
+div.img:active{transform: translateY(2px);}
+
+div.img img {
+    width: 100%;
+    height: auto;
+	
+}
+
+div.desc {
+    padding: 5px;
+    text-align: center;
+	font-weight: bold;
+	Font-size:1em;;
+	color:black;
+}
+
+* {
+    box-sizing: border-box;
+	
+}
+
+.responsive {
+    padding: 0px 10px;
+    float: left;
+    width: 20%;
+	padding-top:20px;
+	padding-left:50px;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+	
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.selection{
+	float:center;
+}
+
+

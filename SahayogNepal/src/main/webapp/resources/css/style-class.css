@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#16103b+0,2b1c41+33,2e1a3b+68,0d0521+100 */
+background: #16103b; /* Old browsers */
+background: -moz-linear-gradient(top,  #16103b 0%, #2b1c41 33%, #2e1a3b 68%, #0d0521 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#16103b), color-stop(33%,#2b1c41), color-stop(68%,#2e1a3b), color-stop(100%,#0d0521)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #16103b 0%,#2b1c41 33%,#2e1a3b 68%,#0d0521 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #16103b 0%,#2b1c41 33%,#2e1a3b 68%,#0d0521 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #16103b 0%,#2b1c41 33%,#2e1a3b 68%,#0d0521 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #16103b 0%,#2b1c41 33%,#2e1a3b 68%,#0d0521 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#16103b', endColorstr='#0d0521',GradientType=0 ); /* IE6-9 */
+
+
+
+font-family: 'Lato', sans-serif;
+
+}
+
+
+
+.wrap-class{max-width: 940px;width: 100%;margin: 85px auto;border-radius:8px;box-shadow: 0 3px 7px 2px #1e132b;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#41305d+0,41305d+64,5c3766+100 */
+background: #41305d; /* Old browsers */
+background: -moz-linear-gradient(top,  #41305d 0%, #41305d 64%, #5c3766 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#41305d), color-stop(64%,#41305d), color-stop(100%,#5c3766)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #41305d 0%,#41305d 64%,#5c3766 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #41305d 0%,#41305d 64%,#5c3766 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #41305d 0%,#41305d 64%,#5c3766 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #41305d 0%,#41305d 64%,#5c3766 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41305d', endColorstr='#5c3766',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+.head-class{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c3b68+0,4b3a67+32,493864+63,493763+100 */
+background: #4c3b68; /* Old browsers */
+background: -moz-linear-gradient(top,  #4c3b68 0%, #4b3a67 32%, #493864 63%, #493763 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c3b68), color-stop(32%,#4b3a67), color-stop(63%,#493864), color-stop(100%,#493763)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #4c3b68 0%,#4b3a67 32%,#493864 63%,#493763 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #4c3b68 0%,#4b3a67 32%,#493864 63%,#493763 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #4c3b68 0%,#4b3a67 32%,#493864 63%,#493763 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #4c3b68 0%,#4b3a67 32%,#493864 63%,#493763 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c3b68', endColorstr='#493763',GradientType=0 ); /* IE6-9 */
+border-bottom: 2px solid #934c98;margin: 0px;border-radius: 8px 8px 0px 0px;padding:0px 0px 0px 10px;}
+
+
+.top-head-left img {margin-top: 2px;}
+.top-head-right{width: 135px;height:70px;float: right;border: 0px 0px 1px 1px #382952;padding: 10px 25px 0px 25px;border-bottom:2px solid #372850;border-left:1px solid #372850; }
+.top-head-left{padding: 20px 15px;}
+.user-img{width: 40px;height: 40px;border-radius: 50%;box-shadow: 0 1px 3px #241632;float: left;margin-right: 20px;margin-top: 7px;}
+.class-off{margin-top: 13px;}
+
+.body-left{padding: 30px;}
+.body-right{background: #342350;padding: 0px;box-shadow: 6px 12px 24px #2b1d45 inset;}
+.left-list{height: 630px;}
+.body-slider{border:3px solid #944c99;box-shadow: 1px 4px 10px #31234a;}
+.body-slider img{width: 100%;}
+.left-list h3{color: #fff;font-weight: bold;font-size: 18px;margin:0px;padding: 15px 15px;background:#27183f;}
+.list-user {padding:10px 0px;}
+.list-user > a {list-style: outside none none;text-decoration: none;}
+.list-user li{height: 30px;}
+.list-user>a p{color: #f7dafd;font-size: 14px;float: left;margin-left: 20px;}
+.list-font {float: right;color: #190d2b;}
+.list-font > .fa.fa-ellipsis-h {margin-left: 5px;}
+.list-user li {height: 30px;padding: 5px 10px 0 15px;}
+.list-user li:hover{background: #4e3c6b;}
+.cir-left {background: red none repeat scroll 0 0;border-radius: 50%;float: left;height: 10px;margin-top: 9px;width: 10px;position: relative;}
+
+.left-search{background: #27183f;padding: 8px 10px 9px 15px;}
+.input-group > span > .btn.btn-danger {background: #5d3e8a none repeat scroll 0 0;border: medium none;border-radius: 0;color: #432c66;height: 25px;font-size: 12px;}
+.input-group > span > .btn.btn-danger:hover{color:#715dac;}
+#custom-search-input > .input-group > input {background: #342350;border-radius: 0 !important;height: 25px;border: none;font-size: 11px;color: #fff;
+padding:3px 6px;}
+.input-group > .form-control::-moz-placeholder {color: #623e78;font-size: 11px;}
+.input-group > .form-control::-webkit-placeholder {color: #623e78;font-size: 11px;}
+.input-group > .form-control::-o-placeholder {color: #623e78;font-size: 11px;}
+
+.body-content{width: 100%;border: 1px solid #944c99;margin-top:13px;margin-left: 0px;margin-right: 0px;}
+.content-one{width: 155px;padding:15px 20px 15px 8px;float: left;}
+.share-note h3{font-size: 10px;color: #fff;margin: 0px;}
+.share-note > input.form-control {border-radius: 0;height: 20px;width: 125px;background: #3e264d;border-color: #371e47;margin-top: 6px;font-size: 10px;
+padding: 3px 4px;color: #fff;}
+.form-control::-moz-placeholder{color: #623e78;font-size: 8px;}
+.form-control::-webkit-placeholder{color: #623e78;font-size: 8px;}
+.form-control::-o-placeholder{color: #623e78;font-size: 8px;}
+.send-friend{margin-top: 10px;}
+.send-friend h3{font-size: 10px;color: #fff;margin: 0px;}
+.send-friend-level{background: #3e264d;border:1px solid #371e47;width: 125px; margin-top: 5px;margin-left: 0px;margin-right: 0px;padding: 2px 0px;}
+.send-friend-level > .btn-default {background: none;border-color: #3e264d;height: 16px;padding: 0;border-radius: 0px;border-left: none;width: 100%;
+color: #fff;font-size: 8px;}
+.send-friend-level > .btn-default:hover{background: #47285b;border-color: #522c6b;}
+.send-friend-level > .btn {padding: 0 0 0 5px !important;text-align: left !important;position: relative;float: left;}
+.send-friend-level > label p {float: left;margin-bottom: 0px !important;font-size: 9px;}
+.btn .badge {float: right !important;position: relative;margin-top: -16px !important;}
+
+
+.con-slider {float: left;width: 185px;padding: 15px 10px;border-right: 1px solid #944c99;border-left: 1px solid #944c99;}
+.top-div-slider{margin-bottom: 5px !important;height: 110px;overflow: hidden;}
+.top-slide-img {border: 1px solid #371e47;height: 115px !important;}
+.top-slide-img img {width: 100%;}
+.but-div-slider {width: 145px;margin: 0px auto;margin-top: 14px;margin-bottom: 0px !important;}
+.but-slide-img img{width: 34px;border: 1px solid #371e47;}
+
+
+.content-three{padding: 15px;padding: 15px;width: 303px;float: left;}
+.content-three h3{font-size: 10px;color: #fff;margin: 0px;}
+.con-three-detail{margin-top: 10px;height: 128px;}
+.con-three-one{width: 88px;float: left;}
+.con-three-four{height: 64px;background: #7a0d15;padding: 10px 6px;}
+.con-three-five{height: 64px;background: #0a4894;padding: 10px 6px;}
+.con-three-one p{font-size: 9px;color: #fff;margin:0px;}
+.con-three-one h2{font-size: 9px;color: #fff;margin:8px 0px 0px 0px;}
+
+.con-three-two{float: left;background: #197909;font-size: 9px;color: #fff;margin:0px;padding: 10px 6px;height: 128px;width: 97px;}
+.con-three-two h2{font-size: 9px;color: #fff;margin:8px 0px 0px 0px;}
+
+.con-three-three{width: 88px;float: left;height: 128px;}
+.con-three-seven{height: 48px;background: #621091;padding: 10px 6px;}
+.con-three-seven p{font-size: 9px;color: #fff;margin:0px;}
+.con-three-seven h2{font-size: 9px;color: #fff;margin:8px 0px 0px 0px;}
+.con-three-eight{height: 80px;background: #8b1449;padding: 10px 6px;}
+.con-three-eight p{font-size: 9px;color: #fff;margin:0px;}
+.con-three-eight h2{font-size: 9px;color: #fff;margin:8px 0px 0px 0px;}
+
+
+
+.footer{background:#4c3b68;width:100%;padding:15px 25px;border-radius:0px 0px 8px 8px; border-top:1px solid #944c99; }
+.footer p{color:#fff;font-size: 9px;margin: 0px;}
+
+
+/* Hiding the checkbox, but allowing it to be focused */
+.badgebox
+{
+    opacity: 0;
+}
+
+.badgebox + .badge{
+text-indent: -999999px;
+top:15px;
+width: 15px;
+height: 15px;
+border-radius: 0px;
+background-color:#3e264d;
+padding: 3px 4px;
+font-size: 8px;
+color: #522c6b;
+}
+
+.badgebox:hover + .badge
+{
+    background: #b86ae8;
+    border: 1px solid #522c6b;
+}
+
+.badgebox:focus + .badge
+{
+    background: #b86ae8;
+    border: 1px solid #522c6b;
+}
+
+.badgebox:checked + .badge
+{
+    /* Move the check mark back when checked */
+	text-indent: 0;
+	background: #b86ae8;
+    border: 1px solid #522c6b;
+}
+
+input[type="radio"], input[type="checkbox"]{margin:0px !important;}
+
+
+
+/* Shrink */
+.hvr-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}

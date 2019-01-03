@@ -1,0 +1,171 @@
+#maincontain1 {
+	padding-left:180px;
+	background-color: #588CE0;
+	color:black;
+	position: relative;
+	
+}
+
+.w3-container{padding:0.01em 16px}
+.w3-content{max-width:980px;margin:auto; position:relative}
+.w3-display-container{}
+.w3-center{text-align:center!important}
+.w3-section{margin-top:16px!important;margin-bottom:16px!important}
+.w3-right{float:right!important}
+.w3-padding-right{padding-right:16px!important}
+.w3-badge,.w3-tag,.w3-sign{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}
+.w3-badge{border-radius:50%}
+.w3-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0;
+}
+
+.w3-hover-white:hover {
+    color: #000!important;
+    background-color: #fff!important;
+}
+
+.w3-transparent {
+    background-color: transparent!important;
+}
+.w3-border {
+    border: 1px solid #ccc!important;
+}
+
+.w3-section {
+	
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+	 position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0%);
+    -ms-transform: translate(-50%,0%);
+	text-align: center!important;
+	font-size: 18px!important;
+}
+.w3-display-bottommiddle {
+   
+}
+.w3-center {
+    
+}
+.w3-large {
+    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+div {
+    display: block;
+}
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+.card{
+  text-align: Center;
+  width: 900px;
+    border-size: 5px;
+  border-style:solid;
+  border-color:blue; 
+    padding: 25px;
+   margin: 25px;
+  display: block;
+  background-color: #DDDDF0;
+  
+}
+.type{
+  padding: 5px;
+ border-top: 4px solid red;
+  background-color: lightgrey;
+  color:black; 
+  font-size:25px;
+}
+.Description{
+  padding-top:25px;
+  padding-bottom:25px;
+  text-align: left;
+  color:#8C5600;
+  font-size:20px;
+}
+.contact{
+  padding:2px;
+  text-align: left;
+  font-weight: bold;
+  color:blue;
+}
+.contact span{
+    color:black; 
+  background-color: lightgrey;
+  border-bottom: 2px solid red;
+    display:inline;
+}
+
+.select{
+	width:auto;
+  text-align: Center;
+  padding: 5px;
+ 
+ 
+}
+.typeSelect{
+  padding: 25px;
+  width: 900px;
+  margin: 25px;
+  display: block;
+  background-color: none;
+  color:black; 
+  font-size:25px;
+}
+
+.responsive1 {
+    padding: 5px 6px;
+    float: left;
+    width: 25%;
+	padding-top:20px;
+	padding-right:15px;
+}
+
+
+.background {
+    background-image: url('../images/parallax/parallax1.png');
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+}
+
+
+/* Navigation Bar  sahayog store*/
+
+ul.navbar{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	font-size: 0;
+	line-height: 0;
+	padding: 0;
+}
+
+
+ul.navbar li, ul.navbar a {
+	display: inline-table;
+}
+
+
+ul.navbar a {
+	color: Black;
+	font-size: 24px;
+	line-height: 24px;
+	padding: 20px;
+	text-transform: uppercase;
+}
+
+ul.navbar a:hover {
+	background-color: #FF0027;
+	text-decoration: none;
+	border: 0;
+	border-radius: 15px;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Classroom</title>
+<!-- <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,700,500,900,300italic,300' rel='stylesheet' type='text/css'> -->
+    <!-- Bootstrap -->
+    <link type="text/css" href="css/bootstrap.css" rel="stylesheet">
+    <link type="text/css" href="css/style.css" rel="stylesheet">
+	 
+
+     <link type="text/css" href="css/slick.css" rel="stylesheet">
+    <link type="text/css" href="css/slick-theme.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	   
+	 <link rel="stylesheet" type="text/css" href="fonts/fa/css/font-awesome.min.css" />  
+	   
+  </head>
+  <body>
+  
+      <div class="row wrapper">
+          <div class="header">
+              <div class="col-md-4 col-sm-6 col-xs-6 header-left">
+                  <img src="images/logo.png" alt="logo" class="img-responsive">
+              </div><!-- header-left --> 
+              <div class="col-md-3 col-md-offset-5 col-sm-6 col-xs-6 header-right">
+                    <div class="social-media">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-envelope"></i></a>
+                        <a href="#"><i class="fa fa-skype"></i></a>
+                    </div>
+              </div><!-- header-left -->
+          </div><!--end of header  -->
+          <div class="clearfix"></div>
+          
+
+
+          <div class="row rum-form create-rum-form">
+
+            <div class="class-desc">
+              <p>Welcome to <b>STUDY TABLE</b></p>
+            </div><!-- class-desc -->
+
+            <div class="creat-table">
+
+                <p>HOST/JOIN THE TABLE</p>
+                  <div class="col-md-6 col-sm-6 col-xs-6 create-left">
+                      <div class="create-or">
+                        <p>OR</p>
+                      </div>
+                      <div class="row create-left-inner">
+                      <h3>Host a Table</h3>
+
+                      <form>
+                          <div class="form-group">
+                            <label class="col-md-4">Tabel Name</label>
+                            <input type="text" class="col-md-8 form-control" id="exampleInputEmail1">
+                          </div> 
+                          <div class="clearfix"></div>
+                          <div class="form-group">
+                            <label class="col-md-4">CourseId</label>
+                            <input type="text" class="col-md-8 form-control" id="exampleInputEmail1">
+                          </div>
+                          <div class="clearfix"></div>
+                          <div class="form-group">
+                            <label class="mess" >Invite Users</label>
+                            <textarea class="form-control" id="exampleInputEmail1" row="3"></textarea>
+                          </div>
+                      </form> 
+
+                      <div class="cre-btn">
+                          <input class="btn btn-default" type="submit" value="Create">
+                      </div>
+
+                    </div><!-- create-left-inner -->
+                  </div><!-- create-left -->
+
+
+
+                  <div class="col-md-6 col-sm-6 col-xs-6 create-right">
+                      <div class="row create-right-inner">
+                              <h3>Join  a Table</h3>
+                            <div class="col-md-6 col-sm-6 col-xs-6 cre-left">
+                                <a href="#"><div class="cre-left-inner">
+                                    <h3>CSCI 454<h3>
+                                      <p>by Pradip</p>
+                                </div></a>
+                            </div><!-- cre-left -->  
+                            <div class="col-md-6 col-sm-6 col-xs-6 cre-right">
+                               <a href="#"><div class="cre-left-inner">
+                                    <h3>CSCI 454<h3>
+                                      <p>by Pradip</p>
+                                </div></a>
+                            </div><!-- cre-right --> 
+                            <div class="col-md-6 col-sm-6 col-xs-6 cre-left">
+                                <a href="#"><div class="cre-left-inner">
+                                    <h3>CSCI 454<h3>
+                                      <p>by Pradip</p>
+                                </div></a>
+                            </div><!-- cre-left -->  
+                            <div class="col-md-6 col-sm-6 col-xs-6 cre-right">
+                               <a href="#"><div class="cre-left-inner">
+                                    <h3>CSCI 454<h3>
+                                      <p>by Pradip</p>
+                                </div></a>
+                            </div><!-- cre-right --> 
+                            <div class="col-md-6 col-sm-6 col-xs-6 cre-left">
+                               <a href="#"><div class="cre-left-inner">
+                                    <h3>CSCI 454<h3>
+                                      <p>by Pradip</p>
+                                </div></a>
+                            </div><!-- cre-left -->  
+                            <div class="col-md-6 col-sm-6 col-xs-6 cre-right">
+                               <a href="#"><div class="cre-left-inner">
+                                    <h3>CSCI 454<h3>
+                                      <p>by Pradip</p>
+                                </div></a>
+                            </div><!-- cre-right -->  
+                      </div>
+
+                  </div><!-- create-right -->
+            </div><!-- creat-table -->
+             
+          </div><!-- rum-form -->
+       </div><!-- wrapper -->
+  
+     
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/js-migrade.js"></script>
+
+
+         <script>
+
+
+    $(document).ready(function(){
+    $('.rum-left').slick({
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  arrows: false,
+  autoplay: true
+
+});
+  });
+    </script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
